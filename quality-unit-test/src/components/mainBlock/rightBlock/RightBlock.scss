@@ -1,0 +1,14 @@
+@import "../../../App.scss";
+.rightBlock {
+  @extend %block;
+  flex-direction: row;
+  justify-content: right;
+}
+.rightBlock_commumicate {
+  width: 458px;
+  height: 362px;
+  z-index: 1;
+  position: relative;
+  right: -364px;
+  bottom: -179px;
+}
