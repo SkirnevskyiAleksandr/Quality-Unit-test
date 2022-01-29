@@ -5,9 +5,9 @@ import './RightBlock.scss';
 
 function RightBlock() {
     return (
-        <div className='rightBlock'>
-            <img className="rightBlock_commumicate" src={Communication} alt="girl" />
-            <img src={GirlPicture} alt="girl" />
+        <div className='right-block'>
+            <img className="right-block_commumicate" src={Communication} alt="girl" />
+            <img className="right-block_girl" src={GirlPicture} alt="girl" />
         </div>
     )
 }
