@@ -1,5 +1,5 @@
 import './App.scss';
-import MainBlock from './components/mainBlock/mainBlock';
+import MainBlock from './components/mainBlock/MainBlock';
 function App() {
   return (
     <div className="App">

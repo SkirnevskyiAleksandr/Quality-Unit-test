@@ -1,0 +1,83 @@
+// .App {
+//   max-width: 1847px;
+//   display: flex;
+//   background-color: #ffff;
+// }
+// // templates
+// %block {
+//   width: 50%;
+//   height: 80%;
+//   display: flex;
+// }
+// //mixin
+// @mixin font($f, $style, $size, $line-height) {
+//   font-family: $f;
+//   font-weight: $style;
+//   font-size: $size;
+//   line-height: $line-height;
+// }
+// //variables
+// $font-fem1: Poppins;
+// $font-fem2: Open Sans;
+
+// $font-st1: 700;
+// $font-st2: 400;
+// $font-st3: 600;
+
+// $font-size1: 14px;
+
+// $color1: #20bc7e;
+// $color2: #feb237;
+// $color3: #050505;
+// $color4: #8c9097;
+// $color5: #fff;
+
+// $gradient: linear-gradient(to right, #ffbd39, #fa9531, #fa9531);
+// $hover-gradient: linear-gradient(to right, #dee1e7, #8c9097, #8c9097);
+// $active-gradient: linear-gradient(to right, #58f8b8, #20bc7e, #20bc7e);
+.App {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1847px;
+  // height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  // overflow-y: auto;
+  // overflow-x: hidden;
+}
+// templates
+%block {
+  width: 50%;
+  height: 80%;
+  display: flex;
+}
+//mixin
+@mixin font($f, $style, $size, $line-height) {
+  font-family: $f;
+  font-weight: $style;
+  font-size: $size;
+  line-height: $line-height;
+}
+//variables
+$font-fem1: Poppins;
+$font-fem2: Open Sans;
+
+$font-st1: 700;
+$font-st2: 400;
+$font-st3: 600;
+
+$font-size1: 14px;
+
+$color1: #20bc7e;
+$color2: #feb237;
+$color3: #050505;
+$color4: #8c9097;
+$color5: #fff;
+
+$gradient: linear-gradient(to right, #ffbd39, #fa9531, #fa9531);
+$hover-gradient: linear-gradient(to right, #dee1e7, #8c9097, #8c9097);
+$active-gradient: linear-gradient(to right, #58f8b8, #20bc7e, #20bc7e);

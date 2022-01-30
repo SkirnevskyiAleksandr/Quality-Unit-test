@@ -23,7 +23,6 @@ function MainBlock() {
                     <button className="button-get">Get Started  |  14 days free</button>
                     <button className="button-action"><img src={Play} alt="play button" /> <span>See It In Action</span></button>
                 </div>
-                <h6>Used by</h6>
                 <ul>
                     <a href="" className="airbus"><img src={Airbus} alt="airbus logo" /></a>
                     <a href="" className="forbes"><img src={Forbes} alt="forbes logo" /></a>
@@ -36,7 +35,6 @@ function MainBlock() {
             {/* right-block */}
             <div className='rightBlock'>
                 <div>
-                    {/* <img className="rightBlock_communicate" src={Communication} alt="girl" /> */}
                     <img className="right-block_girl" src={GirlPicture} alt="girl" />
                 </div>
             </div>
