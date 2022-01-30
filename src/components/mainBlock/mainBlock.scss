@@ -14,11 +14,11 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding-top: 8%;
+  padding-top: 11%;
   h1 {
     @include font($font-fem1, $font-st1, 55px, 81%);
     display: inline-block;
-    width: 410px;
+    width: 487px;
     margin: 0;
     margin-bottom: 17px;
     a {
@@ -35,12 +35,12 @@
   p {
     @include font($font-fem1, $font-st2, 26px, 95%);
     color: $color3;
-    width: 309px;
+    width: 390px;
     margin: 0;
     margin-bottom: 19px;
   }
   .left-block_list {
-    width: 297px;
+    width: px;
     margin-bottom: 24px;
   }
   .left-block_list {
@@ -51,6 +51,7 @@
     display: flex;
     flex-direction: row;
     justify-content: left;
+    margin-bottom: 60px;
     .button-get {
       @include font($font-fem1, $font-st1, $font-size1, 100%);
       width: 253px;
@@ -168,12 +169,12 @@
     height: inherit;
     &::before {
       content: url("../../assets/Communication.png");
-      // width: 458px;
-      // height: 362px;
+      width: 458px;
+      height: 362px;
       z-index: 1;
       position: absolute;
-      right: 403px;
-      bottom: 246px;
+      right: 429px;
+      bottom: 281px;
     }
   }
 }
